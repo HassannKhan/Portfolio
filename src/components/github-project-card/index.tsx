@@ -19,8 +19,9 @@ const GithubProjectCard = ({
   username: string;
   googleAnalyticsId?: string;
 }) => {
-  if (!loading && githubProjects.length === 0) {
-    return;
+// Commented code so I can see cards without projects
+//  if (!loading && githubProjects.length === 0) {
+   // return;
   }
 
   const renderSkeleton = () => {
