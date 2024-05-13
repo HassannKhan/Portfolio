@@ -1,4 +1,4 @@
-export interface MyProjects {
+export interface GithubProjects {
   name: string;
   html_url: string;
   description: string;
