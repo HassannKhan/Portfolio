@@ -15,7 +15,7 @@ const GithubProjectCard = ({
   header: string;
   githubProjects: GithubProject[];
   loading: boolean;
-  limit: number;
+  limit: 3;
   username: string;
   googleAnalyticsId?: string;
 }) => {
