@@ -1,4 +1,4 @@
-export interface My Projects {
+export interface MyProjects {
   name: string;
   html_url: string;
   description: string;
