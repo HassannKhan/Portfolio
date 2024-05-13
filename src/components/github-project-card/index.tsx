@@ -26,7 +26,7 @@ const GithubProjectCard = ({
 
   const renderSkeleton = () => {
     const array = [];
-    for (let index = 0; index < limit; index++) {
+    for (let index = 0; index < 2; index++) {
       array.push(
         <div className="card shadow-lg compact bg-base-100" key={index}>
           <div className="flex justify-between flex-col p-8 h-full w-full">
