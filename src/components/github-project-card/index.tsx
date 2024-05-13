@@ -18,7 +18,7 @@ const GithubProjectCard = ({
   limit: number;
   username: string;
   googleAnalyticsId?: string;
-}) => {
+}) //=> {
 // Commented code so I can see cards without projects
 //  if (!loading && githubProjects.length === 0) {
    // return;
