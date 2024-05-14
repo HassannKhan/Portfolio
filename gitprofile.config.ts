@@ -41,12 +41,44 @@ const CONFIG = {
           link: 'https://play.google.com/store/apps/details?id=com.StagHead.SquidChallenge',
         },
         {
+          title: 'Bus Parking',
+          description:
+            'Ratings : 4.4★ | Downloads : 5K+ ',
+          imageUrl:
+            'https://lh3.googleusercontent.com/7fkK4nKEF0kk1uOqpZTH3-aqIXeHxzsodDMNqpHyYYVSoPWuYl9IcgzuXGl9RyG8Jg',
+          link: 'https://play.google.com/store/apps/details?id=com.StagHead.BusParking',
+        },
+        {
+          title: 'Rally Racing',
+          description:
+            'Ratings : 2.8★ | Downloads : 1K+ ',
+          imageUrl:
+            'https://lh3.googleusercontent.com/V40_Jezl6YQIrfb-9-umN8bLTvFopXBKcyrfYuC_pxLApOYnGl_pN1VO4UhISVYZYH8',
+          link: 'https://play.google.com/store/apps/details?id=com.StagHeadGames.RallyRacing',
+        },
+        {
+          title: 'The 456 Challenges',
+          description:
+            'Ratings : 3.9★ | Downloads : 1K+ ',
+          imageUrl:
+            'https://lh3.googleusercontent.com/Yy4tGU_twCKkzs3X-h0yyoMTCQdK_VHbtyqZ5d3f1NoQcY5VRI-JxZKUklESKEwN3e0B',
+          link: 'https://play.google.com/store/apps/details?id=com.StagHeadGames.TheChallenges',
+        },
+        {
           title: 'Luxury Car Parking',
           description:
             'Ratings : 4.7★ | Downloads : 1K+ ',
           imageUrl:
-            'https://github.com/HassannKhan/VideosHosting/blob/main/LuxuryCarParkingICon.png?raw=true',
+            'https://lh3.googleusercontent.com/AaVEd8xylvBxhmZQHNnDWqiT36NCuT3nheW_797GoMQKPZNAKzBtcZK2JTlnUf--U34',
           link: 'https://play.google.com/store/apps/details?id=com.StagHeadGames.LuxuryCarParking',
+        },
+        {
+          title: 'Sniper Army',
+          description:
+            'Ratings : 0★ | Downloads : 100+ ',
+          imageUrl:
+            'https://lh3.googleusercontent.com/isxbgUisUR960wEhqLcxZtGayuWwiLudIu9z-GPdKxdSSto5nQ15QJScY85avpf-L-0',
+          link: 'https://play.google.com/store/apps/details?id=com.DuckArts.SniperArmy3D',
         },
       ],
     },
