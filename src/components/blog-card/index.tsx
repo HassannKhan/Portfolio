@@ -133,7 +133,7 @@ const BlogCard = ({
                 <div className="flex items-start px-4">
                   <div className="text-center md:text-left w-full">
                     <h2 className="font-medium text-base-content opacity-60">
-                      {article.title}
+                      "Click Here To See Glimps of my Fiverr Journey"
                     </h2>
                     <p className="text-base-content opacity-50 text-xs">
                       {formatDistance(article.publishedAt, new Date(), {
