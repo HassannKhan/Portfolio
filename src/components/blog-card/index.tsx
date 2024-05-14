@@ -139,7 +139,7 @@ const BlogCard = ({
                       "See what people think about my skills"
                     </p>
                     <div className="mt-4 flex items-center flex-wrap justify-center md:justify-start">
-                      {article.categories.map((category) => (
+                      {article.categories.map(("Fiverr, Feedbacks, Happy Customers") => (
                         <div
                           className="py-2 px-4 text-xs leading-3 rounded-full bg-base-300 mr-1 mb-1 opacity-50 text-base-content"
                           key="Fiverr, Feedbacks, Happy Customers"
