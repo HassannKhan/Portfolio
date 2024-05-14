@@ -119,7 +119,7 @@ const BlogCard = ({
               <div className="avatar mb-5 md:mb-0 opacity-90">
                 <div >
                   <LazyImage
-                    src={article.thumbnail}
+                    src="/public/logo512.png"
                     alt={'thumbnail'}
                     placeholder={skeleton({
                       widthCls: 'w-full',
