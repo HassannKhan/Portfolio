@@ -117,7 +117,7 @@ const BlogCard = ({
           <div className="p-8 h-full w-full">
             <div className="flex items-center flex-col md:flex-row">
               <div className="avatar mb-5 md:mb-0 opacity-90">
-                <div ">
+                <div >
                   <LazyImage
                     src={article.thumbnail}
                     alt={'thumbnail'}
@@ -188,7 +188,7 @@ const BlogCard = ({
                     skeleton({ widthCls: 'w-28', heightCls: 'h-8' })
                   ) : (
                     <span className="text-base-content opacity-70">
-                      My Fiverr Era
+                      My Fiverrs Era
                     </span>
                   )}
                 </h5>
