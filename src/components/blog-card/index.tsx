@@ -133,21 +133,17 @@ const BlogCard = ({
                 <div className="flex items-start px-4">
                   <div className="text-center md:text-left w-full">
                     <h2 className="font-medium text-base-content opacity-60">
-                      "Click Here To See Glimps of my Fiverr Journey"
+                      "Click Here To See Glimps Of My INCREDIBLE Fiverr Journey"
                     </h2>
-                    <p className="text-base-content opacity-50 text-xs">
-                      {formatDistance(article.publishedAt, new Date(), {
-                        addSuffix: true,
-                      })}
-                    </p>
+                    
                     <p className="mt-3 text-base-content text-opacity-60 text-sm">
-                      {article.description}
+                      "See what people think about my skills"
                     </p>
                     <div className="mt-4 flex items-center flex-wrap justify-center md:justify-start">
                       {article.categories.map((category, index2) => (
                         <div
                           className="py-2 px-4 text-xs leading-3 rounded-full bg-base-300 mr-1 mb-1 opacity-50 text-base-content"
-                          key={index2}
+                          key="Fiverr, Feedbacks, Happy Customers"
                         >
                           #{category}
                         </div>
