@@ -42,7 +42,7 @@ const BlogCard = ({
           <div className="p-8 h-full w-full">
             <div className="flex items-center flex-col md:flex-row">
               <div className="avatar mb-5 md:mb-0">
-                <div className="w-24 h-24 mask mask-squircle">
+                <div >
                   {skeleton({
                     widthCls: 'w-full',
                     heightCls: 'h-full',
