@@ -45,7 +45,7 @@ const CONFIG = {
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
           imageUrl:
-            'https://github.com/HassannKhan/VideosHosting/blob/main/LuxuryCarParkingICon.png',
+            'https://github.com/HassannKhan/VideosHosting/blob/main/LuxuryCarParkingICon.png?raw=true',
           link: 'https://example.com',
         },
       ],
