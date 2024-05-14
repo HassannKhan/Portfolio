@@ -41,12 +41,12 @@ const CONFIG = {
           link: 'https://example.com',
         },
         {
-          title: 'Project Name',
+          title: 'Luxury Car Parking',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            '4.7★ | ⬇ 1K+ ',
           imageUrl:
             'https://github.com/HassannKhan/VideosHosting/blob/main/LuxuryCarParkingICon.png?raw=true',
-          link: 'https://example.com',
+          link: 'https://play.google.com/store/apps/details?id=com.StagHeadGames.LuxuryCarParking',
         },
       ],
     },
