@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import LazyImage from '../lazy-image';
 import { AiOutlineContainer } from 'react-icons/ai';
 import { getDevPost, getMediumPost } from '@arifszn/blog-js';
-import { formatDistance } from 'date-fns';
 import { SanitizedBlog } from '../../interfaces/sanitized-config';
 import { ga, skeleton } from '../../utils';
 import { Article } from '../../interfaces/article';
@@ -140,7 +139,7 @@ const BlogCard = ({
                       "See what people think about my skills"
                     </p>
                     <div className="mt-4 flex items-center flex-wrap justify-center md:justify-start">
-                      {article.categories.map((category, index2) => (
+                      {article.categories.map((category) => (
                         <div
                           className="py-2 px-4 text-xs leading-3 rounded-full bg-base-300 mr-1 mb-1 opacity-50 text-base-content"
                           key="Fiverr, Feedbacks, Happy Customers"
