@@ -43,7 +43,7 @@ const CONFIG = {
         {
           title: 'Luxury Car Parking',
           description:
-            '4.7★ | ⬇ 1K+ ',
+            '            4.7★ | 1K+ ⬇',
           imageUrl:
             'https://github.com/HassannKhan/VideosHosting/blob/main/LuxuryCarParkingICon.png?raw=true',
           link: 'https://play.google.com/store/apps/details?id=com.StagHeadGames.LuxuryCarParking',
