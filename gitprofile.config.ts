@@ -185,7 +185,7 @@ const CONFIG = {
       authors: 'John Doe, Jane Smith',
       link: 'https://example.com',
       description:
-        'https://www.youtube.com/embed/qmqLheEybBk?playlist=qmqLheEybBk&loop=1&autoplay=1&mute=1&loop=&controls=0',
+        'https://www.youtube.com/embed/ub12x-zRK7k?playlist=qmqLheEybBk&loop=1&autoplay=1&mute=1&loop=&controls=0',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
