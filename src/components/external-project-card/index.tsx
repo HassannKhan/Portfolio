@@ -112,7 +112,9 @@ const ExternalProjectCard = ({
                     </div>
                   )}
                   <p className="mt-2 text-base-content text-opacity-60 text-sm text-justify">
+                    <div>
                     {item.description}
+                      </div>
                   </p>
                 </div>
               </div>
