@@ -33,12 +33,12 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'The 456 Game',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Ratings : 2.88★ | Downloads : 100K+ ',
           imageUrl:
-            'https://github.com/HassannKhan/VideosHosting/blob/main/Squid2%20Icon.png',
-          link: 'https://example.com',
+            'https://lh3.googleusercontent.com/uwTjDmg-WrHvlRxqto3CC5VJaEFauQ4KY0ioI_NF_NKD1dSDD8k1OaCDOrngcT46IUE',
+          link: 'https://play.google.com/store/apps/details?id=com.StagHead.SquidChallenge',
         },
         {
           title: 'Luxury Car Parking',
