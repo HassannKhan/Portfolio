@@ -89,31 +89,28 @@ const PublicationCard = ({
               <div className="px-4">
                 <div className="text-center w-full">
                   <h2 className="font-medium opacity-60 mb-2">{item.title}</h2>
-                  {item.conferenceName && (
-                    <p className="text-base-content opacity-50 text-sm">
-                      {item.conferenceName}
-                    </p>
-                  )}
-                  {item.journalName && (
-                    <p className="text-base-content opacity-50 text-sm">
-                      {item.journalName}
-                    </p>
-                  )}
-                  {item.authors && (
-                    <p className="text-base-content opacity-50 text-sm">
-                      Author: {item.authors}
-                    </p>
-                  )}
-  
-
-                 {item.description && (
-  <div className="aspect-w-16 aspect-h-9">
-    <iframe
-      className="absolute top-16 left-0 w-full h-full"
-      src={item.description}
-      title="Embedded Video"
-      allowFullScreen
-    ></iframe>
+               {item.description && (
+  <div className="relative">
+    <div className="p-8 bg-white shadow-lg rounded-t-lg">
+      <h2 className="font-medium text-xl mb-2">{item.title}</h2>
+      {item.conferenceName && (
+        <p className="text-base opacity-60">{item.conferenceName}</p>
+      )}
+      {item.journalName && (
+        <p className="text-base opacity-60">{item.journalName}</p>
+      )}
+      {item.authors && (
+        <p className="text-base opacity-60">Author: {item.authors}</p>
+      )}
+    </div>
+    <div className="aspect-w-16 aspect-h-9">
+      <iframe
+        className="absolute top-0 left-0 w-full h-full"
+        src={item.description}
+        title="Embedded Video"
+        allowFullScreen
+      ></iframe>
+    </div>
   </div>
 )}
                 </div>
