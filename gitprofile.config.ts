@@ -176,10 +176,10 @@ const CONFIG = {
       authors: 'Stag Head Games',
       link: 'https://example.com',
       description:
-        'https://www.youtube.com/embed/bRozlJugIAE?playlist=bRozlJugIAE&loop=1&autoplay=1&mute=1&loop=&controls=0',
+        'https://www.youtube.com/embed/rGJZyQZyfgM?playlist=rGJZyQZyfgM&loop=1&autoplay=1&mute=1&loop=&controls=0',
     },
     {
-      title: 'Bot Killer 2',
+      title: 'Count Warrior',
       conferenceName: 'Hobby Project',
       journalName: '',
       authors: 'Stag Head Games',
