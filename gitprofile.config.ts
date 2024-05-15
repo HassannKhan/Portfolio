@@ -179,7 +179,7 @@ const CONFIG = {
         'https://www.youtube.com/embed/bRozlJugIAE?playlist=bRozlJugIAE&loop=1&autoplay=1&mute=1&loop=&controls=0',
     },
     {
-      title: 'Publication Title',
+      title: 'Bot Killer 2',
       conferenceName: 'Conference Name',
       journalName: '',
       authors: 'John Doe, Jane Smith',
