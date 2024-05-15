@@ -124,8 +124,8 @@ const PublicationCard = ({
 
                   {item.description && (
                       
-                       <div style="position: relative;overflow: hidden;width: 100%;padding-top: 56.25%;">
-                      <iframe style="position:absolute;top:0;left:0;bottom: 0;right: 0;width: 100%;height: 100%;"  width="360" height="325" src={item.description}>
+                       <div >
+                      <iframe   width="360" height="325" src={item.description}>
 </iframe>
 
                     </div>
