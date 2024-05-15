@@ -108,8 +108,8 @@ const PublicationCard = ({
 
                   {item.description && (
                       
-                       <div class="container">
-                      <iframe  class="responsive-iframe"  width="360" height="325" src={item.description}>
+                       <div >
+                      <iframe   width="360" height="325" src={item.description}>
 </iframe>
 
                     </div>
