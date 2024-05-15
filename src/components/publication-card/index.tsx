@@ -91,7 +91,7 @@ const PublicationCard = ({
                 
             {item.description && (
   <div className="relative">
-    <div className="p-8 bg-white shadow-lg rounded-lg">
+   
       <h2 className="font-medium text-xl mb-2">{item.title}</h2>
       {item.conferenceName && (
         <p className="text-base opacity-60">{item.conferenceName}</p>
@@ -110,7 +110,7 @@ const PublicationCard = ({
           allowFullScreen
         ></iframe>
       </div>
-    </div>
+    
   </div>
 )}
 
