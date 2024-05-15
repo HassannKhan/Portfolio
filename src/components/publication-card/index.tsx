@@ -106,7 +106,7 @@ const PublicationCard = ({
                   {item.description && (
                       
                        <div >
-                      <iframe width="100%" height="100%" src={item.description}>
+                      <iframe width="360" height="325" src={item.description}>
 </iframe>
 
                     </div>
