@@ -172,17 +172,17 @@ const CONFIG = {
     {
       title: 'Bot Killer',
       conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
+      journalName: 'Game Jame Challenge',
+      authors: 'Stag Head Games',
       link: 'https://example.com',
       description:
         'https://www.youtube.com/embed/bRozlJugIAE?playlist=bRozlJugIAE&loop=1&autoplay=1&mute=1&loop=&controls=0',
     },
     {
       title: 'Bot Killer 2',
-      conferenceName: 'Conference Name',
+      conferenceName: 'Hobby Project',
       journalName: '',
-      authors: 'John Doe, Jane Smith',
+      authors: 'Stag Head Games',
       link: 'https://example.com',
       description:
         'https://www.youtube.com/embed/aYBbxElrYb8?playlist=aYBbxElrYb8&loop=1&autoplay=1&mute=1&loop=&controls=0',
