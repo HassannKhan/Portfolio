@@ -1,7 +1,7 @@
 import { Fragment } from 'react';
 import { SanitizedPublication } from '../../interfaces/sanitized-config';
 import { skeleton } from '../../utils';
-
+const customVideoHeight = "500px";
 const PublicationCard = ({
   publications,
   loading,
@@ -88,7 +88,7 @@ const PublicationCard = ({
             <div className="w-full">
               <div className="px-4">
                 <div className="text-center w-full">
-                
+               
             {item.description && (
   <div className="relative">
    
@@ -102,7 +102,7 @@ const PublicationCard = ({
       {item.authors && (
         <p className="text-base opacity-60">Author: {item.authors}</p>
       )}
-      <div className="aspect-w-16 aspect-h-9 flex justify-center items-center">
+      <div className="aspect-w-16 aspect-h-9 flex justify-center items-center" style={{ height: customVideoHeight }}>
         <iframe
           className="w-full h-full"
           src={item.description}
