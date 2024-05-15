@@ -1,7 +1,7 @@
 import { Fragment } from 'react';
 import { SanitizedPublication } from '../../interfaces/sanitized-config';
 import { skeleton } from '../../utils';
-const customVideoHeight = "500px";
+const customVideoHeight = "250px";
 const PublicationCard = ({
   publications,
   loading,
