@@ -106,14 +106,16 @@ const PublicationCard = ({
                   )}
   
 
-                  {item.description && (
-                      
-                       <div class="col-span-1 lg:col-span-2">
-                      <iframe   width="360" height="325" src={item.description}>
-</iframe>
-
-                    </div>
-                  )}
+                 {item.description && (
+  <div className="aspect-w-16 aspect-h-9">
+    <iframe
+      className="absolute top-0 left-0 w-full h-full"
+      src={item.description}
+      title="Embedded Video"
+      allowFullScreen
+    ></iframe>
+  </div>
+)}
                 </div>
               </div>
             </div>
