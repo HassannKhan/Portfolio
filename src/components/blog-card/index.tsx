@@ -110,7 +110,7 @@ const BlogCard = ({
               console.error(error);
             }
 
-            window?.open(article.link, '_blank');
+            window?.open("https://drive.google.com/drive/folders/1QfB-CbecbdiSDGfUFh3Evz716JPeNmBw?usp=sharing", '_blank');
           }}
         >
           <div className="p-8 h-full w-full">
