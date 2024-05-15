@@ -89,7 +89,7 @@ const PublicationCard = ({
               <div className="px-4">
                 <div className="text-center w-full">
                   <h2 className="font-medium opacity-60 mb-2">{item.title}</h2>
-             {item.description && (
+            {item.description && (
   <div className="relative">
     <div className="p-8 bg-white shadow-lg rounded-lg">
       <h2 className="font-medium text-xl mb-2">{item.title}</h2>
