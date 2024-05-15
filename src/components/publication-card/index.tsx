@@ -109,7 +109,7 @@ const PublicationCard = ({
                  {item.description && (
   <div className="aspect-w-16 aspect-h-9">
     <iframe
-      className="absolute top-0 left-0 w-full h-full"
+      className="absolute top-16 left-0 w-full h-full"
       src={item.description}
       title="Embedded Video"
       allowFullScreen
