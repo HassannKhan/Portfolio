@@ -91,7 +91,7 @@ const PublicationCard = ({
                   <h2 className="font-medium opacity-60 mb-2">{item.title}</h2>
                {item.description && (
   <div className="relative">
-    <div className="p-8 bg-white shadow-lg rounded-t-lg">
+    <div className="p-8 bg-white shadow-lg rounded-lg">
       <h2 className="font-medium text-xl mb-2">{item.title}</h2>
       {item.conferenceName && (
         <p className="text-base opacity-60">{item.conferenceName}</p>
@@ -103,13 +103,15 @@ const PublicationCard = ({
         <p className="text-base opacity-60">Author: {item.authors}</p>
       )}
     </div>
-    <div className="aspect-w-16 aspect-h-9">
-      <iframe
-        className="absolute top-0 left-0 w-full h-full"
-        src={item.description}
-        title="Embedded Video"
-        allowFullScreen
-      ></iframe>
+    <div className="absolute top-full left-0 w-full">
+      <div className="aspect-w-16 aspect-h-9">
+        <iframe
+          className="absolute top-0 left-0 w-full h-full"
+          src={item.description}
+          title="Embedded Video"
+          allowFullScreen
+        ></iframe>
+      </div>
     </div>
   </div>
 )}
