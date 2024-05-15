@@ -194,7 +194,7 @@ const CONFIG = {
       authors: 'Stag Head Games',
       link: 'https://example.com',
       description:
-        'https://www.youtube.com/embed/ub12x-zRK7k?playlist=ub12x-zRK7k&loop=1&autoplay=1&mute=1&loop=&controls=0',
+        'https://www.youtube.com/embed/lOq9i1mw0KM?playlist=lOq9i1mw0KM&loop=1&autoplay=1&mute=1&loop=&controls=0',
     },
     {
       title: 'Luxury Car Parking',
@@ -203,7 +203,7 @@ const CONFIG = {
       authors: 'Stag Head Games',
       link: 'https://example.com',
       description:
-        'https://www.youtube.com/embed/aYBbxElrYb8?playlist=aYBbxElrYb8&loop=1&autoplay=1&mute=1&loop=&controls=0',
+        'https://www.youtube.com/embed/ub12x-zRK7k?playlist=ub12x-zRK7k&loop=1&autoplay=1&mute=1&loop=&controls=0',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
