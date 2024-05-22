@@ -234,6 +234,15 @@ const CONFIG = {
       description:
         'https://www.youtube.com/embed/OMJaf3qSEK8?playlist=OMJaf3qSEK8&loop=1&autoplay=1&mute=1&loop=&controls=0',
     },
+    {
+      title: 'GWagon Drive',
+      conferenceName: 'Hobby Project',
+      journalName: '',
+      authors: 'Stag Head Games',
+      link: 'https://example.com',
+      description:
+        'https://www.youtube.com/embed/4OpKPKybHKc?playlist=4OpKPKybHKc&loop=1&autoplay=1&mute=1&loop=&controls=0',
+    },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
