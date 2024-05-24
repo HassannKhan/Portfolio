@@ -59,7 +59,7 @@ const CONFIG = {
         {
           title: 'The 456 Challenges',
           description:
-            'Ratings : 4.0★ | Downloads : 1K+ ',
+            'Ratings : 4.1★ | Downloads : 1K+ ',
           imageUrl:
             'https://lh3.googleusercontent.com/Yy4tGU_twCKkzs3X-h0yyoMTCQdK_VHbtyqZ5d3f1NoQcY5VRI-JxZKUklESKEwN3e0B',
           link: 'https://play.google.com/store/apps/details?id=com.StagHeadGames.TheChallenges',
