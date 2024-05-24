@@ -51,7 +51,7 @@ const CONFIG = {
         {
           title: 'Rally Racing',
           description:
-            'Ratings : 2.8★ | Downloads : 1K+ ',
+            'Ratings : 3.4★ | Downloads : 1K+ ',
           imageUrl:
             'https://lh3.googleusercontent.com/V40_Jezl6YQIrfb-9-umN8bLTvFopXBKcyrfYuC_pxLApOYnGl_pN1VO4UhISVYZYH8',
           link: 'https://play.google.com/store/apps/details?id=com.StagHeadGames.RallyRacing',
