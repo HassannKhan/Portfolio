@@ -44,7 +44,7 @@ const CONFIG = {
           description: 'Ratings : 4.4★ | Downloads : 5K+ ',
           imageUrl:
             'https://lh3.googleusercontent.com/7fkK4nKEF0kk1uOqpZTH3-aqIXeHxzsodDMNqpHyYYVSoPWuYl9IcgzuXGl9RyG8Jg',
-          link: 'https://play.google.com/store/apps/details?id=com.StagHead.BusParking',
+          link: 'https://play.google.com/store/apps/details?id=com.StagHead.BusParkingGame',
         },
         {
           title: 'Rally Racing',
