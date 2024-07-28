@@ -37,7 +37,7 @@ const CONFIG = {
           description:'Ratings : 2.88★ | Downloads : 100K+ ',
           imageUrl:
             'https://lh3.googleusercontent.com/uwTjDmg-WrHvlRxqto3CC5VJaEFauQ4KY0ioI_NF_NKD1dSDD8k1OaCDOrngcT46IUE',
-          link: 'https://play.google.com/store/apps/details?id=com.StagHead.SquidChallenge',
+          link: 'https://play.google.com/store/apps/details?id=com.StagHead.SquidChallenges',
         },
         {
           title: 'Bus Parking',
