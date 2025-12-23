@@ -33,11 +33,18 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'The 456 Game',
-          description:'Ratings : 2.88★ | Downloads : 100K+ ',
+          title: 'Fortuner Game - 4x4 Parking',
+          description:'Ratings : 4.5★ | Downloads : 50K+ ',
           imageUrl:
-            'https://lh3.googleusercontent.com/uwTjDmg-WrHvlRxqto3CC5VJaEFauQ4KY0ioI_NF_NKD1dSDD8k1OaCDOrngcT46IUE',
-          link: 'https://play.google.com/store/apps/details?id=com.StagHead.SquidChallenges',
+            'https://lh3.googleusercontent.com/Evw3zPpYWnfeEKZ5kx7A2LjCN-MRLfQXWvDc4ob2h2X4mVQbSDcj_2TIR36St4oabG1x6DFRIGIc9vgdgZYrMik',
+          link: 'https://play.google.com/store/apps/details?id=com.StagHeadGames.FortunerParking',
+        },
+        {
+          title: 'Furious Drift Game',
+          description: 'Ratings : 5.0★ | Downloads : 2.65K+ ',
+          imageUrl:
+            'https://lh3.googleusercontent.com/UWvILNp0yT-GY4532F7Ga3A8yz1TYZ-Rpxm_4dIzP4p4AT22pnGFskn6cpvWiofkllyljhVaHcX6By39GghO',
+          link: 'https://play.google.com/store/apps/details?id=com.StagHeadGames.DriftCar',
         },
         {
           title: 'Bus Parking',
@@ -52,13 +59,6 @@ const CONFIG = {
           imageUrl:
             'https://lh3.googleusercontent.com/V40_Jezl6YQIrfb-9-umN8bLTvFopXBKcyrfYuC_pxLApOYnGl_pN1VO4UhISVYZYH8',
           link: 'https://play.google.com/store/apps/details?id=com.StagHeadGames.RallyRacing',
-        },
-        {
-          title: 'The 456 Challenges',
-          description: 'Ratings : 4.1★ | Downloads : 5K+ ',
-          imageUrl:
-            'https://lh3.googleusercontent.com/Yy4tGU_twCKkzs3X-h0yyoMTCQdK_VHbtyqZ5d3f1NoQcY5VRI-JxZKUklESKEwN3e0B',
-          link: 'https://play.google.com/store/apps/details?id=com.StagHeadGames.TheChallenges',
         },
         {
           title: 'Luxury Car Parking',
