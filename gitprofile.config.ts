@@ -83,7 +83,7 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'hassan-khan-563148156',
+    linkedin: 'hassan-khan-stagheadgames',
     twitter: '',
     mastodon: '',
     researchGate: '',
