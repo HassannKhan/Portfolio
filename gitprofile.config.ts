@@ -53,6 +53,13 @@ const CONFIG = {
             'https://lh3.googleusercontent.com/7fkK4nKEF0kk1uOqpZTH3-aqIXeHxzsodDMNqpHyYYVSoPWuYl9IcgzuXGl9RyG8Jg',
           link: 'https://play.google.com/store/apps/details?id=com.StagHead.BusParkingGame',
         },
+         {
+          title: 'Sniper: Stealth Killer',
+          description: 'Ratings : 0★ | Downloads : 0+ ',
+          imageUrl:
+            'https://lh3.googleusercontent.com/f64qNm4O644bsKQzUSseve9iCdlwE7xJ5eNsY53jPFxb6miw6COlHWaX8-nCtYnjU2_8TAlHDy4zPKl_5ZGJFg',
+          link: 'https://play.google.com/store/apps/details?id=com.StagHeadGames.SniperStealthKiller',
+        },
         {
           title: 'Rally Racing',
           description: 'Ratings : 3.4★ | Downloads : 1K+ ',
@@ -66,13 +73,6 @@ const CONFIG = {
           imageUrl:
             'https://lh3.googleusercontent.com/AaVEd8xylvBxhmZQHNnDWqiT36NCuT3nheW_797GoMQKPZNAKzBtcZK2JTlnUf--U34',
           link: 'https://play.google.com/store/apps/details?id=com.StagHeadGames.LuxuryCarParking',
-        },
-        {
-          title: 'Sniper Army',
-          description: 'Ratings : 0★ | Downloads : 100+ ',
-          imageUrl:
-            'https://lh3.googleusercontent.com/isxbgUisUR960wEhqLcxZtGayuWwiLudIu9z-GPdKxdSSto5nQ15QJScY85avpf-L-0',
-          link: 'https://play.google.com/store/apps/details?id=com.DuckArts.SniperArmy3D',
         },
       ],
     },
