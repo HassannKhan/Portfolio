@@ -41,9 +41,9 @@ const CONFIG = {
         },
         {
           title: 'Furious Drift Game',
-          description: 'Ratings : 5.0★ | Downloads : 2.65K+ ',
+          description: 'Ratings : 5.0★ | Downloads : 4.12K+ ',
           imageUrl:
-            'https://lh3.googleusercontent.com/UWvILNp0yT-GY4532F7Ga3A8yz1TYZ-Rpxm_4dIzP4p4AT22pnGFskn6cpvWiofkllyljhVaHcX6By39GghO',
+            'https://lh3.googleusercontent.com/VV2UbhCVrhNjLoZqsmbJsw2i6VLe63sqlS-F1Xicxmuu-__AgzeWIhzgTdrRwrY82l3Z5dOItkvKdTYfKR_hQQI',
           link: 'https://play.google.com/store/apps/details?id=com.StagHeadGames.DriftCar',
         },
         {
@@ -55,7 +55,7 @@ const CONFIG = {
         },
          {
           title: 'Sniper: Stealth Killer',
-          description: 'Ratings : 0★ | Downloads : 0+ ',
+          description: 'Ratings : 3.3★ | Downloads : 2.92K+ ',
           imageUrl:
             'https://lh3.googleusercontent.com/f64qNm4O644bsKQzUSseve9iCdlwE7xJ5eNsY53jPFxb6miw6COlHWaX8-nCtYnjU2_8TAlHDy4zPKl_5ZGJFg',
           link: 'https://play.google.com/store/apps/details?id=com.StagHeadGames.SniperStealthKiller',
@@ -68,11 +68,11 @@ const CONFIG = {
           link: 'https://play.google.com/store/apps/details?id=com.StagHeadGames.RallyRacing',
         },
         {
-          title: 'Luxury Car Parking',
-          description: 'Ratings : 4.7★ | Downloads : 1K+ ',
+          title: 'Arrows Maze Escape Puzzle Game',
+          description: 'Ratings : N/A★ | Downloads : 148+ ',
           imageUrl:
-            'https://lh3.googleusercontent.com/AaVEd8xylvBxhmZQHNnDWqiT36NCuT3nheW_797GoMQKPZNAKzBtcZK2JTlnUf--U34',
-          link: 'https://play.google.com/store/apps/details?id=com.StagHeadGames.LuxuryCarParking',
+            'https://lh3.googleusercontent.com/AErky4z0lJi1QZL_GC4j9TXYQ3HwXhmH7eveLK4-qDQyJmSeiBilCdJktLA0udOby598SHfj6A2AbXk65SmfF5M',
+          link: 'https://play.google.com/store/apps/details?id=com.StagHeadGames.ArrowsPuzzle',
         },
       ],
     },
