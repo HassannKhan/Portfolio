@@ -34,14 +34,14 @@ const CONFIG = {
       projects: [
         {
           title: 'Fortuner Game - 4x4 Parking',
-          description:'Ratings : 4.5★ | Downloads : 50K+ ',
+          description:'Ratings : 4.5★ | Downloads : 73.3K+ ',
           imageUrl:
             'https://lh3.googleusercontent.com/Evw3zPpYWnfeEKZ5kx7A2LjCN-MRLfQXWvDc4ob2h2X4mVQbSDcj_2TIR36St4oabG1x6DFRIGIc9vgdgZYrMik',
           link: 'https://play.google.com/store/apps/details?id=com.StagHeadGames.FortunerParking',
         },
         {
           title: 'Furious Drift Game',
-          description: 'Ratings : 5.0★ | Downloads : 4.12K+ ',
+          description: 'Ratings : 5.0★ | Downloads : 5.71K+ ',
           imageUrl:
             'https://lh3.googleusercontent.com/VV2UbhCVrhNjLoZqsmbJsw2i6VLe63sqlS-F1Xicxmuu-__AgzeWIhzgTdrRwrY82l3Z5dOItkvKdTYfKR_hQQI',
           link: 'https://play.google.com/store/apps/details?id=com.StagHeadGames.DriftCar',
@@ -55,24 +55,24 @@ const CONFIG = {
         },
          {
           title: 'Sniper: Stealth Killer',
-          description: 'Ratings : 3.3★ | Downloads : 2.92K+ ',
+          description: 'Ratings : 3.3★ | Downloads : 6.21K+ ',
           imageUrl:
             'https://lh3.googleusercontent.com/f64qNm4O644bsKQzUSseve9iCdlwE7xJ5eNsY53jPFxb6miw6COlHWaX8-nCtYnjU2_8TAlHDy4zPKl_5ZGJFg',
           link: 'https://play.google.com/store/apps/details?id=com.StagHeadGames.SniperStealthKiller',
         },
         {
+          title: 'Arrows Maze Escape Puzzle Game',
+          description: 'Ratings : 4.5★ | Downloads : 1.35K+ ',
+          imageUrl:
+            'https://lh3.googleusercontent.com/w43QsR1PbLjIIuXe1Gm7CS_xREWewq1W32-KHsgZPJbNIbMt1chFkbd-9OUQknwxhrRb2DBlORhEFpY0VRmlMw',
+          link: 'https://play.google.com/store/apps/details?id=com.StagHeadGames.ArrowsPuzzle',
+        },
+        {
           title: 'Rally Racing',
-          description: 'Ratings : 3.4★ | Downloads : 1K+ ',
+          description: 'Ratings : 3.4★ | Downloads : 3.81K+ ',
           imageUrl:
             'https://lh3.googleusercontent.com/V40_Jezl6YQIrfb-9-umN8bLTvFopXBKcyrfYuC_pxLApOYnGl_pN1VO4UhISVYZYH8',
           link: 'https://play.google.com/store/apps/details?id=com.StagHeadGames.RallyRacing',
-        },
-        {
-          title: 'Arrows Maze Escape Puzzle Game',
-          description: 'Ratings : N/A★ | Downloads : 148+ ',
-          imageUrl:
-            'https://lh3.googleusercontent.com/AErky4z0lJi1QZL_GC4j9TXYQ3HwXhmH7eveLK4-qDQyJmSeiBilCdJktLA0udOby598SHfj6A2AbXk65SmfF5M',
-          link: 'https://play.google.com/store/apps/details?id=com.StagHeadGames.ArrowsPuzzle',
         },
       ],
     },
