@@ -196,6 +196,7 @@ const GitProfile = ({ config }: { config: Config }) => {
             />
             <div className={`p-4 lg:p-10 min-h-full ${BG_COLOR}`}>
               <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 rounded-box">
+                {/* Left Side: Untouched */}
                 <div className="col-span-1">
                   <div className="grid grid-cols-1 gap-6">
                     {!sanitizedConfig.themeConfig.disableSwitch && (
@@ -244,8 +245,27 @@ const GitProfile = ({ config }: { config: Config }) => {
                     )}
                   </div>
                 </div>
+
+                {/* Right Side */}
                 <div className="lg:col-span-2 col-span-1">
                   <div className="grid grid-cols-1 gap-6">
+                    {/* Top Stat Card: Total Downloads */}
+                    <div className="card shadow-lg compact bg-base-100">
+                      <div className="card-body">
+                        <div className="flex flex-col items-center justify-center py-3 text-center">
+                          <span className="text-xs md:text-sm font-semibold tracking-wider uppercase opacity-70">
+                            Total Downloads
+                          </span>
+                          <span className="text-4xl md:text-5xl font-extrabold text-primary tracking-tight my-1">
+                            150K+
+                          </span>
+                          <span className="text-xs opacity-60">
+                            Across Published Android Titles on Google Play
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+
                     {sanitizedConfig.projects.github.display && (
                       <GithubProjectCard
                         header={sanitizedConfig.projects.github.header}
