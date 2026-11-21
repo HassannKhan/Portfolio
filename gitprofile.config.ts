@@ -2,39 +2,41 @@
 
 const CONFIG = {
   github: {
-    username: 'HassannKhan', // Your GitHub org/user name. (This is the only required config)
+    username: 'HassannKhan',
   },
-  /**
-   * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
-   * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
-   * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
-   */
   base: '/Portfolio',
+
+  // Total Downloads Stat Card Config
+  downloads: {
+    display: true,
+    title: 'Total Downloads',
+    count: '150K+',
+    subtitle: 'Across Published Android Titles on Google Play',
+  },
+
   projects: {
     github: {
-      display: false, // Display GitHub projects?
+      display: false,
       header: 'My Projects',
-      mode: 'manual', // Mode can be: 'automatic' or 'manual'
+      mode: 'manual',
       automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        sortBy: 'stars',
+        limit: 8,
         exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          forks: false,
+          projects: [],
         },
       },
       manual: {
-        // Properties for manually specifying projects
-        projects: [], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [],
       },
     },
     external: {
       header: 'My Projects',
-      // To hide the `External Projects` section, keep it empty.
       projects: [
         {
           title: 'Fortuner Game - 4x4 Parking',
-          description:'Ratings : 4.5★ | Downloads : 110K+ ',
+          description: 'Ratings : 4.5★ | Downloads : 110K+ ',
           imageUrl:
             'https://lh3.googleusercontent.com/Evw3zPpYWnfeEKZ5kx7A2LjCN-MRLfQXWvDc4ob2h2X4mVQbSDcj_2TIR36St4oabG1x6DFRIGIc9vgdgZYrMik',
           link: 'https://play.google.com/store/apps/details?id=com.StagHeadGames.FortunerParking',
@@ -60,7 +62,6 @@ const CONFIG = {
             'https://lh3.googleusercontent.com/7fkK4nKEF0kk1uOqpZTH3-aqIXeHxzsodDMNqpHyYYVSoPWuYl9IcgzuXGl9RyG8Jg',
           link: 'https://play.google.com/store/apps/details?id=com.StagHead.BusParkingGame',
         },
-         
         {
           title: 'Arrows Maze Escape Puzzle Game',
           description: 'Ratings : 4.67★ | Downloads : 3.54K+ ',
@@ -92,13 +93,13 @@ const CONFIG = {
     instagram: 'stagheadgames',
     reddit: '',
     threads: '',
-    youtube: '', // example: 'pewdiepie'
+    youtube: '',
     udemy: '',
     dribbble: '',
     behance: '',
     medium: '',
     dev: '',
-    stackoverflow: '', // example: '1/jeff-atwood'
+    stackoverflow: '',
     skype: '',
     telegram: '',
     website: '',
@@ -107,7 +108,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://github.com/HassannKhan/VideosHosting/blob/main/Resume-Hassan-Khan.pdf?raw=true', // Empty fileUrl will hide the `Download Resume` button.
+      'https://github.com/HassannKhan/VideosHosting/blob/main/Resume-Hassan-Khan.pdf?raw=true',
   },
   skills: [
     'C#',
@@ -190,8 +191,7 @@ const CONFIG = {
       journalName: 'Game Jame Challenge',
       authors: 'Stag Head Games',
       link: 'https://example.com',
-      description:
-        'https://www.youtube.com/embed/rGJZyQZyfgM?playlist=rGJZyQZyfgM&loop=1&autoplay=1&mute=1&loop=&controls=0',
+      description: '',
     },
     {
       title: 'Count Warrior',
@@ -199,8 +199,7 @@ const CONFIG = {
       journalName: '',
       authors: 'Stag Head Games',
       link: 'https://example.com',
-      description:
-        'https://www.youtube.com/embed/aYBbxElrYb8?playlist=aYBbxElrYb8&loop=1&autoplay=1&mute=1&loop=&controls=0',
+      description: '',
     },
     {
       title: 'Furious Drift',
@@ -208,8 +207,7 @@ const CONFIG = {
       journalName: '',
       authors: 'Stag Head Games',
       link: 'https://example.com',
-      description:
-        'https://www.youtube.com/embed/lOq9i1mw0KM?playlist=lOq9i1mw0KM&loop=1&autoplay=1&mute=1&loop=&controls=0',
+      description: '',
     },
     {
       title: 'Luxury Car Parking',
@@ -217,8 +215,7 @@ const CONFIG = {
       journalName: '',
       authors: 'Stag Head Games',
       link: 'https://example.com',
-      description:
-        'https://www.youtube.com/embed/ub12x-zRK7k?playlist=ub12x-zRK7k&loop=1&autoplay=1&mute=1&loop=&controls=0',
+      description: '',
     },
     {
       title: 'Bank Heist',
@@ -226,8 +223,7 @@ const CONFIG = {
       journalName: '',
       authors: 'Stag Head Games',
       link: 'https://example.com',
-      description:
-        'https://www.youtube.com/embed/OMJaf3qSEK8?playlist=OMJaf3qSEK8&loop=1&autoplay=1&mute=1&loop=&controls=0',
+      description: '',
     },
     {
       title: 'GWagon Drive',
@@ -235,76 +231,27 @@ const CONFIG = {
       journalName: '',
       authors: 'Stag Head Games',
       link: 'https://example.com',
-      description:
-        'https://www.youtube.com/embed/4OpKPKybHKc?playlist=4OpKPKybHKc&loop=1&autoplay=1&mute=1&loop=&controls=0',
+      description: '',
     },
   ],
-  // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 1, // How many articles to display. Max is 10.
+    source: 'dev',
+    username: 'arifszn',
+    limit: 1,
   },
   googleAnalytics: {
-    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+    id: '',
   },
-  // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: {
     id: '',
     snippetVersion: 6,
   },
   themeConfig: {
     defaultTheme: 'valentine',
-
-    // Hides the switch in the navbar
-    // Useful if you want to support a single color mode
     disableSwitch: true,
-
-    // Should use the prefers-color-scheme media-query,
-    // using user system preferences, instead of the hardcoded defaultTheme
     respectPrefersColorScheme: false,
-
-    // Display the ring in Profile picture
     displayAvatarRing: true,
-
-    // Available themes. To remove any theme, exclude from here.
-    themes: [
-      'light',
-      'dark',
-      'cupcake',
-      'bumblebee',
-      'emerald',
-      'corporate',
-      'synthwave',
-      'retro',
-      'cyberpunk',
-      'valentine',
-      'halloween',
-      'garden',
-      'forest',
-      'aqua',
-      'lofi',
-      'pastel',
-      'fantasy',
-      'wireframe',
-      'black',
-      'luxury',
-      'dracula',
-      'cmyk',
-      'autumn',
-      'business',
-      'acid',
-      'lemonade',
-      'night',
-      'coffee',
-      'winter',
-      'dim',
-      'nord',
-      'sunset',
-      'procyon',
-    ],
-
-    // Custom theme, applied to `procyon` theme
+    themes: ['valentine'],
     customTheme: {
       primary: '#fc055b',
       secondary: '#219aaf',
@@ -315,14 +262,7 @@ const CONFIG = {
       '--rounded-btn': '3rem',
     },
   },
-
-  // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
-
+  footer: `Made with <a class="text-primary" href="https://github.com/arifszn/gitprofile" target="_blank" rel="noreferrer">GitProfile</a> and ❤️`,
   enablePWA: false,
 };
 
