@@ -191,7 +191,8 @@ const CONFIG = {
       journalName: 'Game Jame Challenge',
       authors: 'Stag Head Games',
       link: 'https://example.com',
-      description: '',
+      description:
+        'https://www.youtube.com/embed/rGJZyQZyfgM?playlist=rGJZyQZyfgM&loop=1&autoplay=1&mute=1&loop=&controls=0',
     },
     {
       title: 'Count Warrior',
@@ -199,7 +200,8 @@ const CONFIG = {
       journalName: '',
       authors: 'Stag Head Games',
       link: 'https://example.com',
-      description: '',
+      description:
+        'https://www.youtube.com/embed/aYBbxElrYb8?playlist=aYBbxElrYb8&loop=1&autoplay=1&mute=1&loop=&controls=0',
     },
     {
       title: 'Furious Drift',
@@ -207,7 +209,8 @@ const CONFIG = {
       journalName: '',
       authors: 'Stag Head Games',
       link: 'https://example.com',
-      description: '',
+      description:
+        'https://www.youtube.com/embed/lOq9i1mw0KM?playlist=lOq9i1mw0KM&loop=1&autoplay=1&mute=1&loop=&controls=0',
     },
     {
       title: 'Luxury Car Parking',
@@ -215,7 +218,8 @@ const CONFIG = {
       journalName: '',
       authors: 'Stag Head Games',
       link: 'https://example.com',
-      description: '',
+      description:
+        'https://www.youtube.com/embed/ub12x-zRK7k?playlist=ub12x-zRK7k&loop=1&autoplay=1&mute=1&loop=&controls=0',
     },
     {
       title: 'Bank Heist',
@@ -223,7 +227,8 @@ const CONFIG = {
       journalName: '',
       authors: 'Stag Head Games',
       link: 'https://example.com',
-      description: '',
+      description:
+        'https://www.youtube.com/embed/OMJaf3qSEK8?playlist=OMJaf3qSEK8&loop=1&autoplay=1&mute=1&loop=&controls=0',
     },
     {
       title: 'GWagon Drive',
@@ -231,7 +236,8 @@ const CONFIG = {
       journalName: '',
       authors: 'Stag Head Games',
       link: 'https://example.com',
-      description: '',
+      description:
+        'https://www.youtube.com/embed/4OpKPKybHKc?playlist=4OpKPKybHKc&loop=1&autoplay=1&mute=1&loop=&controls=0',
     },
   ],
   blog: {
