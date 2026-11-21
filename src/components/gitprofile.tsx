@@ -294,4 +294,34 @@ const GitProfile = ({ config }: { config: any }) => {
                     {sanitizedConfig.publications.length !== 0 && (
                       <PublicationCard
                         loading={loading}
-                        publications={san
+                        publications={sanitizedConfig.publications}
+                      />
+                    )}
+                    {sanitizedConfig.blog.display && (
+                      <BlogCard
+                        loading={loading}
+                        googleAnalyticsId={sanitizedConfig.googleAnalytics.id}
+                        blog={sanitizedConfig.blog}
+                      />
+                    )}
+                  </div>
+                </div>
+              </div>
+            </div>
+            {sanitizedConfig.footer && (
+              <footer
+                className={`p-4 footer ${BG_COLOR} text-base-content footer-center`}
+              >
+                <div className="card compact bg-base-100 shadow">
+                  <Footer content={sanitizedConfig.footer} loading={loading} />
+                </div>
+              </footer>
+            )}
+          </>
+        )}
+      </div>
+    </HelmetProvider>
+  );
+};
+
+export default GitProfile;
