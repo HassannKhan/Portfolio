@@ -34,14 +34,21 @@ const CONFIG = {
       projects: [
         {
           title: 'Fortuner Game - 4x4 Parking',
-          description:'Ratings : 4.5★ | Downloads : 100K+ ',
+          description:'Ratings : 4.5★ | Downloads : 110K+ ',
           imageUrl:
             'https://lh3.googleusercontent.com/Evw3zPpYWnfeEKZ5kx7A2LjCN-MRLfQXWvDc4ob2h2X4mVQbSDcj_2TIR36St4oabG1x6DFRIGIc9vgdgZYrMik',
           link: 'https://play.google.com/store/apps/details?id=com.StagHeadGames.FortunerParking',
         },
         {
+          title: 'Sniper: Stealth Killer',
+          description: 'Ratings : 3.53★ | Downloads : 17.9K+ ',
+          imageUrl:
+            'https://lh3.googleusercontent.com/f64qNm4O644bsKQzUSseve9iCdlwE7xJ5eNsY53jPFxb6miw6COlHWaX8-nCtYnjU2_8TAlHDy4zPKl_5ZGJFg',
+          link: 'https://play.google.com/store/apps/details?id=com.StagHeadGames.SniperStealthKiller',
+        },
+        {
           title: 'Furious Drift Game',
-          description: 'Ratings : 5.0★ | Downloads : 9.22K+ ',
+          description: 'Ratings : 5.0★ | Downloads : 9.4K+ ',
           imageUrl:
             'https://lh3.googleusercontent.com/VV2UbhCVrhNjLoZqsmbJsw2i6VLe63sqlS-F1Xicxmuu-__AgzeWIhzgTdrRwrY82l3Z5dOItkvKdTYfKR_hQQI',
           link: 'https://play.google.com/store/apps/details?id=com.StagHeadGames.DriftCar',
@@ -53,16 +60,10 @@ const CONFIG = {
             'https://lh3.googleusercontent.com/7fkK4nKEF0kk1uOqpZTH3-aqIXeHxzsodDMNqpHyYYVSoPWuYl9IcgzuXGl9RyG8Jg',
           link: 'https://play.google.com/store/apps/details?id=com.StagHead.BusParkingGame',
         },
-         {
-          title: 'Sniper: Stealth Killer',
-          description: 'Ratings : 3.53★ | Downloads : 17.1K+ ',
-          imageUrl:
-            'https://lh3.googleusercontent.com/f64qNm4O644bsKQzUSseve9iCdlwE7xJ5eNsY53jPFxb6miw6COlHWaX8-nCtYnjU2_8TAlHDy4zPKl_5ZGJFg',
-          link: 'https://play.google.com/store/apps/details?id=com.StagHeadGames.SniperStealthKiller',
-        },
+         
         {
           title: 'Arrows Maze Escape Puzzle Game',
-          description: 'Ratings : 4.67★ | Downloads : 3.53K+ ',
+          description: 'Ratings : 4.67★ | Downloads : 3.54K+ ',
           imageUrl:
             'https://lh3.googleusercontent.com/w43QsR1PbLjIIuXe1Gm7CS_xREWewq1W32-KHsgZPJbNIbMt1chFkbd-9OUQknwxhrRb2DBlORhEFpY0VRmlMw',
           link: 'https://play.google.com/store/apps/details?id=com.StagHeadGames.ArrowsPuzzle',
