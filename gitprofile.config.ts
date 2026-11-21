@@ -10,7 +10,7 @@ const CONFIG = {
   downloads: {
     display: true,
     title: 'Total Downloads',
-    count: '150K+',
+    count: '140K+',
     subtitle: 'Across Published Android Titles on Google Play',
   },
 
