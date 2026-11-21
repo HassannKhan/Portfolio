@@ -37,7 +37,7 @@ import PublicationCard from './publication-card';
  * @param {Object} config - the configuration object
  * @return {JSX.Element} the rendered GitProfile component
  */
-const GitProfile = ({ config }: { config: Config }) => {
+const GitProfile = ({ config }: { config: any }) => {
   const [sanitizedConfig] = useState<SanitizedConfig | Record<string, never>>(
     getSanitizedConfig(config),
   );
@@ -249,22 +249,26 @@ const GitProfile = ({ config }: { config: Config }) => {
                 {/* Right Side */}
                 <div className="lg:col-span-2 col-span-1">
                   <div className="grid grid-cols-1 gap-6">
-                    {/* Top Stat Card: Total Downloads */}
-                    <div className="card shadow-lg compact bg-base-100">
-                      <div className="card-body">
-                        <div className="flex flex-col items-center justify-center py-3 text-center">
-                          <span className="text-xs md:text-sm font-semibold tracking-wider uppercase opacity-70">
-                            Total Downloads
-                          </span>
-                          <span className="text-4xl md:text-5xl font-extrabold text-primary tracking-tight my-1">
-                            150K+
-                          </span>
-                          <span className="text-xs opacity-60">
-                            Across Published Android Titles on Google Play
-                          </span>
+                    {/* ⭐️ Config-Driven Downloads Banner */}
+                    {config?.downloads?.display && (
+                      <div className="card shadow-lg compact bg-base-100 w-full">
+                        <div className="card-body w-full">
+                          <div className="flex flex-col items-center justify-center py-4 text-center w-full">
+                            <span className="text-xs md:text-sm font-bold tracking-wider uppercase opacity-80">
+                              {config.downloads.title}
+                            </span>
+                            <span className="text-4xl md:text-5xl font-extrabold text-primary tracking-tight my-1">
+                              {config.downloads.count}
+                            </span>
+                            {config.downloads.subtitle && (
+                              <span className="text-sm md:text-base font-medium opacity-75 mt-0.5">
+                                {config.downloads.subtitle}
+                              </span>
+                            )}
+                          </div>
                         </div>
                       </div>
-                    </div>
+                    )}
 
                     {sanitizedConfig.projects.github.display && (
                       <GithubProjectCard
@@ -290,34 +294,4 @@ const GitProfile = ({ config }: { config: Config }) => {
                     {sanitizedConfig.publications.length !== 0 && (
                       <PublicationCard
                         loading={loading}
-                        publications={sanitizedConfig.publications}
-                      />
-                    )}
-                    {sanitizedConfig.blog.display && (
-                      <BlogCard
-                        loading={loading}
-                        googleAnalyticsId={sanitizedConfig.googleAnalytics.id}
-                        blog={sanitizedConfig.blog}
-                      />
-                    )}
-                  </div>
-                </div>
-              </div>
-            </div>
-            {sanitizedConfig.footer && (
-              <footer
-                className={`p-4 footer ${BG_COLOR} text-base-content footer-center`}
-              >
-                <div className="card compact bg-base-100 shadow">
-                  <Footer content={sanitizedConfig.footer} loading={loading} />
-                </div>
-              </footer>
-            )}
-          </>
-        )}
-      </div>
-    </HelmetProvider>
-  );
-};
-
-export default GitProfile;
+                        publications={san
